@@ -1,18 +1,18 @@
 class BtsnoopAdb < Formula
   desc "Stream Android Bluetooth HCI packets live into Wireshark via ADB"
   homepage "https://github.com/thelok1s/btsnoop-adb"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/thelok1s/btsnoop-adb/releases/download/v#{version}/btsnoop-adb-aarch64-apple-darwin"
-      sha256 "47bb35ae033a3ae14c3ab720404c9a13be662bf2c206b47a3670f3dcebb40ea7"
+      sha256 "a4ed375346d1b3ed8fd4522d23e6c9df0c467e07001392b8c75959ce1d442b3c"
     end
 
     on_intel do
       url "https://github.com/thelok1s/btsnoop-adb/releases/download/v#{version}/btsnoop-adb-x86_64-apple-darwin"
-      sha256 "6788b5adb5a9123f0b830c68bb122b84cebebc670f831613a6314898de52a29f"
+      sha256 "6b0872a97ace1c0ecfd53dccc26b2a17b46ec367dcc0e249b4006429c484cf9b"
     end
   end
 
